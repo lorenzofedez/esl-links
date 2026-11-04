@@ -1,0 +1,13 @@
+{
+  "name": "esl-links",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/api.test.mjs",
+    "local": "ADMIN_PASSWORD=password-locale-123 node test/dev-server.mjs 8787 local.db"
+  },
+  "devDependencies": { "wrangler": "^4.45.0" }
+}
