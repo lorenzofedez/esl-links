@@ -1,11 +1,8 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "esl-links",
-  "main": "src/index.js",
+  "main": "worker.js",
   "compatibility_date": "2025-10-01",
-  "assets": { "directory": "./public" },
   "observability": { "enabled": true },
   "vars": { "TIMEZONE": "Europe/Madrid" },
-  // Wrangler creates this database on the first deploy.
   "d1_databases": [{ "binding": "DB", "database_name": "esl-links" }]
 }
