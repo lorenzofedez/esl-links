@@ -1,0 +1,8 @@
+{
+  "name": "esl-links",
+  "main": "worker.js",
+  "compatibility_date": "2025-10-01",
+  "observability": { "enabled": true },
+  "vars": { "TIMEZONE": "Europe/Madrid" },
+  "d1_databases": [{ "binding": "DB", "database_name": "esl-links" }]
+}
